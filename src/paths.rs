@@ -102,7 +102,7 @@ pub fn get_suiup_data_dir() -> PathBuf {
 }
 
 pub fn get_suiup_config_dir() -> PathBuf {
-    get_config_home().join("suiup")
+    get_config_home().join("suiup").join("config")
 }
 
 pub fn get_suiup_cache_dir() -> PathBuf {
